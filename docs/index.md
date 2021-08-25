@@ -1,3 +1,5 @@
+![image info](./assets/logo_color.png)
+
 #<center>MLOps</center>
 
 <center>A module as part of the **Full Stack Machine Learning Engineering** program @ äon intelligence.</center>
