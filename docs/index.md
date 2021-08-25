@@ -1,6 +1,6 @@
 # MLOps
 
-A module as part of the **Full Stack Machine Learning Engineering** @ äon intelligence.
+A module as part of the **Full Stack Machine Learning Engineering** program @ äon intelligence.
 
 ## Commands
 
