@@ -1,4 +1,4 @@
-![image info](./assets/logo_color.png)
+![image info](./assets/logo_color.png){ width=50% }
 
 #<center>MLOps</center>
 
