@@ -1,8 +1,12 @@
-![image info](./assets/logo_color.png){ width=50% }
+![image info](./assets/logo_color.png = 250x)
 
 #<center>MLOps</center>
 
-<center>A module as part of the **Full Stack Machine Learning Engineering** program @ äon intelligence.</center>
+<center>A module as part of the 
+
+**Full Stack Machine Learning Engineering** program 
+
+@ äon intelligence.</center>
 
 ## Commands
 
