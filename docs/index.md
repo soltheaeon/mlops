@@ -1,4 +1,4 @@
-<img src="./assets/logo_color.png" width="200" height="200" />
+<center><img src="./assets/logo_color.png" width="300" height="300" /></center>
 
 #<center>MLOps</center>
 
