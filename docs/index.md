@@ -1,6 +1,6 @@
 # MLOps
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+A module as part of the **Full Stack Machine Learning Engineering** @ äon intelligence.
 
 ## Commands
 
