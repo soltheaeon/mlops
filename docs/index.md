@@ -1,4 +1,4 @@
-![image info](./assets/logo_color.png = 250x)
+<img src="./assets/logo_color.png" width="200" height="200" />
 
 #<center>MLOps</center>
 
