@@ -1,12 +1,10 @@
-<center><img src="./assets/logo_color.png" width="300" height="300" /></center>
-
-#<center>MLOps</center>
+#<center>MLOps: Modeling, Deploying and Monitoring</center>
 
 <center>A module as part of the 
 
-**Full Stack Machine Learning Engineering** program 
+**Full Stack Machine Learning Engineering** program at</center>
 
-@ äon intelligence.</center>
+<center><img src="./assets/logo_color.png" width="300" height="300" /></center>
 
 ## Commands
 
