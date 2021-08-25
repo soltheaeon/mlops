@@ -1,8 +1,8 @@
 #<center>MLOps: Modeling, Deploying and Monitoring</center>
 
-<center>A module as part of the 
+##<center>A module as part of the 
 
-**Full Stack Machine Learning Engineering** program at</center>
+##**Full Stack Machine Learning Engineering** program at</center>
 
 <center><img src="./assets/logo_color.png" width="300" height="300" /></center>
 
