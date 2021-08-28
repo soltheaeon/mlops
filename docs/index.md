@@ -2,7 +2,7 @@
 
 <center>A module as part of the</center>
 
-<center>**Full Stack Machine Learning Engineering** program @</center>
+<center>**Full Stack AI Engineering** program @</center>
 
 <center><img src="./assets/logo_color.png" width="300" height="300" /></center>
 
