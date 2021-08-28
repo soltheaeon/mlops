@@ -8,7 +8,7 @@
 
 ## About the **Full Stack AI Engineering** program
 
-When studying Machine Learning, models rarely leave the coding environment in which they are trained. They serve merely as an academic exercise. Many data professionals therefore lack the skill set to profitably leverage their modeling expertise.
+When studying Machine Learning, models rarely leave the coding environment in which they are trained; they serve merely as an academic exercise. Many data professionals therefore lack the skill set to profitably leverage their modeling expertise.
 
 Over several modules, we teach the most sought-after industry skills of AI Engineers. Each of the modules delivers dozens of hours of hands-on practice using real-world examples. The program has been carefully crafted with industry needs in mind, so you will be prepared for a wide range of challenges and set yourself apart from other AI Engineers.
 
