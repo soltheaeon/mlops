@@ -1,4 +1,7 @@
-site_name: About
+site_name: MLOps @ äon intelligence
+nav:
+  - Home: index.md
+  - Setup: setup.md
 theme:
   name: material
   logo: assets/logo.png
