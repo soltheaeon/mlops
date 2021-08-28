@@ -6,6 +6,24 @@
 
 <center><img src="./assets/logo_color.png" width="300" height="300" /></center>
 
+## About the **Full Stack AI Engineering** program
+
+When studying Machine Learning, models rarely leave the coding environment in which they are trained. TThey serve merely as an academic exercise. Many data professionals therefore lack the skill set to profitably leverage their modeling expertise.
+
+Over several modules, we teach the most sought-after industry skills of AI Engineers. Each of the modules delivers dozens of hours of hands-on practice using real-world examples. The program has been carefully crafted with industry needs in mind, so you'll be prepared for a wide range of challenges and set yourself apart from other AI Engineers.
+
+At this stage, the following modules are being planned and realized:
+
+- MLOps: Modeling, Deploying and Monitoring
+- Data Engineering: Extract, Transform and Load
+- Applied Computer Vision
+- Applied Natural Language Processing
+- Privacy-preserving and decentralized AI
+- Web Development
+- Mobile Robotics and self-driving Cars
+
+
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
