@@ -12,3 +12,5 @@ theme:
   features:
     - navigation.tabs
     - navigation.top
+    - navigation.left
+    - navigation.sections
