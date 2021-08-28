@@ -1,4 +1,4 @@
-site_name: MLOps @ äon intelligence
+site_name: "MLOps: Modeling, Deploying and Monitoring @ äon intelligence"
 nav:
   - Home: index.md
   - Setup: setup.md
