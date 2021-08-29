@@ -1,6 +1,8 @@
 #<center>Setting up a Machine Learning project</center>
 
-## It ALWAYS starts with the business needs
+## Before we start coding
+
+### It ALWAYS starts with the business needs
 
 <q cite="https://venturebeat.com/2020/12/16/the-future-of-ai-deployments-reaching-production-is-bright-in-2021/">
 Most AI projects fail. About 80% never reach deployment [...] and those that do are only profitable about 60% of the time. 
@@ -12,6 +14,8 @@ These are grim numbers, especially considering that it calls into question the v
 - The desired solution is not technically feasible
 - The leap into production does not succeed
 - Success criteria are not defined
+
+Throughout this module, we will address all of these challenges. 
 
 ## Git repositories
 
