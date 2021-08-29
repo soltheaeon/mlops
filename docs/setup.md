@@ -25,9 +25,7 @@ First, however, we must agree on the following premise: We AI Engineers are serv
 
 ### Archetypes
 
-### Metrics
-
-### Baselines
+### Metrics and baselines to beat
 
 ## Git repositories
 
