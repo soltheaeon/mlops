@@ -8,7 +8,7 @@
 Most AI projects fail. About 80% never reach deployment [...] and those that do are only profitable about 60% of the time. 
 </q> (Wilson Pang, 2020: [venturebeat.com](https://venturebeat.com/2020/12/16/the-future-of-ai-deployments-reaching-production-is-bright-in-2021/))
 
-These are grim numbers, especially considering that it calls into question the value added by AI Engineers. Therefore, to minimize the likelihood of such failure, **it is up to us** to set realistic expectations with stakeholders right from the start. After all, most AI projects fail because of at least one of the following problems:
+These numbers paint a grim picture, especially considering that it calls into question the value added by AI Engineers. Therefore, to minimize the likelihood of such failure, **it is up to us** to set realistic expectations with stakeholders right from the start. After all, most AI projects fail because of at least one of the following problems:
 
 - The project is poorly scoped
 - The desired solution is not technically feasible
@@ -16,6 +16,8 @@ These are grim numbers, especially considering that it calls into question the v
 - Success criteria are not defined
 
 Throughout this module, we will address all of these challenges. 
+
+First, however, we must agree on the following premise: We AI Engineers are service providers; we should always consider the needs of the user first. So our raison d'être is to solve problems, not to use the most interesting and advanced algorithms possible. The latter only serves our intellectual satisfaction, not the business.
 
 ## Git repositories
 
