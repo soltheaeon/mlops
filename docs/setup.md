@@ -2,7 +2,7 @@
 
 ## It ALWAYS starts with the business needs
 
-<q cite=https://venturebeat.com/2020/12/16/the-future-of-ai-deployments-reaching-production-is-bright-in-2021/>
+<q cite="https://venturebeat.com/2020/12/16/the-future-of-ai-deployments-reaching-production-is-bright-in-2021/">
 Most artificial intelligence (AI) projects fail. About 80% never reach deployment, according to Gartner, and those that do are only profitable about 60% of the time. 
 </q>
 
