@@ -11,6 +11,5 @@ theme:
     primary: black
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
-    - navigation.left
-    - navigation.sections
