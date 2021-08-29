@@ -2,7 +2,7 @@
 
 ## Before we start coding
 
-### It ALWAYS starts with the business needs
+### It always starts with the business needs
 
 <q cite="https://venturebeat.com/2020/12/16/the-future-of-ai-deployments-reaching-production-is-bright-in-2021/">
 Most AI projects fail. About 80% never reach deployment [...] and those that do are only profitable about 60% of the time. 
