@@ -3,10 +3,10 @@
 ## It ALWAYS starts with the business needs
 
 <q cite="https://venturebeat.com/2020/12/16/the-future-of-ai-deployments-reaching-production-is-bright-in-2021/">
-Most AI projects fail. About 80% never reach deployment, according to Gartner, and those that do are only profitable about 60% of the time. 
-</q>
+Most AI projects fail. About 80% never reach deployment [...] and those that do are only profitable about 60% of the time. 
+</q> (Wilson Pang, 2020: [venturebeat.com](https://venturebeat.com/2020/12/16/the-future-of-ai-deployments-reaching-production-is-bright-in-2021/))
 
-These are dismal numbers, especially considering the fact that it calls into question the value added by AI Engineers. Therefore, to minimize the likelihood of such failure, it is up to us to set realistic expectations with stakeholders right from the start. After all, most AI projects fail because of at least one of the following problems:
+These are grim numbers, especially considering that it calls into question the value added by AI Engineers. Therefore, to minimize the likelihood of such failure, **it is up to us** to set realistic expectations with stakeholders right from the start. After all, most AI projects fail because of at least one of the following problems:
 
 - The project is poorly scoped
 - The desired solution is not technically feasible
