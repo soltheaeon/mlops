@@ -19,6 +19,16 @@ Throughout this module, we will address all of these challenges.
 
 First, however, we must agree on the following premise: We AI Engineers are service providers; we should always consider the needs of the user first. So our raison d'être is to solve problems, not to use the most interesting and advanced algorithms possible. The latter only serves our intellectual satisfaction, not the business.
 
+### The Machine Learning lifecycle
+
+### Prioritizing projects
+
+### Archetypes
+
+### Metrics
+
+### Baselines
+
 ## Git repositories
 
 loooo Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
