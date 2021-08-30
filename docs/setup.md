@@ -39,15 +39,15 @@ Developing Machine Learning solutions is not a linear process. Nevertheless, a n
     - Collect training instances (historical cases or via sensors)
     - In case of supervised learning: annotate with ground truth
 3. Training & debugging:
-    - Produce baseline model
-    - Find state-of-the-art model and reproduce it
-    - Iterate on the baseline model
+    - Produce baseline model (often rule-based/deterministic)
+    - Find state-of-the-art model(s) and reproduce it (or them)
+    - Iterate on the baseline model given your experiments
 4. Deploying & testing:
     - Write tests to prevent regressions
     - Evaluate for biases
     - Roll out in production
 
-
+<center><img src="./assets/ml_lifecycle.png" width="300" height="300" /></center>
 ### Prioritizing projects
 
 ### Archetypes
