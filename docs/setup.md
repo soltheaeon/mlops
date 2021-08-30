@@ -19,6 +19,15 @@ Throughout this module, we will address all of these challenges.
 
 First, however, we must agree on the following premise: We AI Engineers are service providers; we should always consider the needs of the user first. So our raison d'être is to solve problems, not to use the most interesting and advanced algorithms possible. The latter only serves our intellectual satisfaction, not the business.
 
+To gain an initial overview of the project requirements, the following three-step process is useful (Goku Mohandas, 2021: [madewithml.com](https://madewithml.com/courses/mlops/solution/)):
+
+1. Visualize the ideal solution, i.e. how would the problem be solved if there were no constraints?
+2. Learn how the problem is currently being solved.
+3. Frame the solution you can provide. This includes factoring in the following points:
+    - Automation or augmentation: Will you replace or support the user? Once trust in the solution grows, one can extend the augmentation solution to an automation.
+    - User Experience constraints: To whom is the product made available? How does it relate to the privacy policy? How personalized does the solution need to be?
+    - Technical constraints: What data is available? How much time is allowed for development? How performant should the system become? How interpretable must the predictions be? What prediction latency can be tolerated?
+
 ### The Machine Learning lifecycle
 
 ### Prioritizing projects
