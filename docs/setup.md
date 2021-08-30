@@ -33,22 +33,19 @@ To gain an initial overview of the project requirements, the following three-ste
 Developing Machine Learning solutions is not a linear process. Nevertheless, a number of sub-processes can be identified that come with their own challenges. The sequence suggested here can be broken by falling back to previous steps.
 
 1. Planning & project setup: 
-- Specify the requirements and the goals
-- Allocate project resources
-
+    - Specify the requirements and the goals
+    - Allocate project resources
 2. Data collection & labeling:
-- Collect training instances (historical cases or via sensors)
-- In case of supervised learning: annotate with ground truth
-
+    - Collect training instances (historical cases or via sensors)
+    - In case of supervised learning: annotate with ground truth
 3. Training & debugging:
-- Produce baseline model
-- Find state-of-the-art model and reproduce it
-- Iterate on the baseline model
-
+    - Produce baseline model
+    - Find state-of-the-art model and reproduce it
+    - Iterate on the baseline model
 4. Deploying & testing:
-- Write tests to prevent regressions
-- Evaluate for biases
-- Roll out in production
+    - Write tests to prevent regressions
+    - Evaluate for biases
+    - Roll out in production
 
 
 ### Prioritizing projects
