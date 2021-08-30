@@ -48,6 +48,7 @@ Developing Machine Learning solutions is not a linear process. Nevertheless, a n
     - Roll out in production
 
 <center><img src="./assets/ml_lifecycle.png" width="300" height="300" /></center>
+
 ### Prioritizing projects
 
 ### Archetypes
