@@ -47,7 +47,7 @@ Developing Machine Learning solutions is not a linear process. Nevertheless, a n
     - Evaluate for biases
     - Roll out in production
 
-<center><img src="./assets/ml_lifecycle.png" width="300" height="300" /></center>
+<center><img src="./assets/logo_color.png" width="300" height="300" /></center>
 
 ### Prioritizing projects
 
