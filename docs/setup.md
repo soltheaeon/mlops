@@ -26,7 +26,7 @@ To gain an initial overview of the project requirements, the following three-ste
 3. Frame the solution you can provide. This includes factoring in the following points:
     - Automation or augmentation: Will you replace or support the user? Once trust in the solution grows, one can extend the augmentation solution to an automation.
     - User Experience constraints: To whom is the product made available? How does this relate to privacy concerns? How personalized does the solution need to be?
-    - Technical constraints: What data is available? How much time is granted for development? How performant should the system become? How interpretable must the predictions be? What prediction latency can be tolerated?
+    - Technical constraints: What data is available? How much time is granted for development? How performant should the system be? How interpretable must the predictions be? What prediction latency can be tolerated?
 
 ### The Machine Learning lifecycle
 
