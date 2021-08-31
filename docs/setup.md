@@ -49,7 +49,41 @@ Developing Machine Learning solutions is not a linear process. Nevertheless, a n
 
 <center><img src="../assets/ml_lifecycle.png"/></center>
 
+As mentioned above, one may revert to previous steps. Reasons for this may be, for example, the following:
+
+- You realize obtaining the necessary data is too hard or labeling a different task is easier. 
+- You realize the number of data points is insufficient or the data is of poor quality.
+- You realize that the modeling task is too hard given the requirements and resources.
+- You realize there is a mismatch between training data and data seen in deployment.
+
 ### Prioritizing projects
+
+Agrawal, Gans, and Goldfarb describe what makes AI economically viable in their book '*Prediction Machines: The Simple Economics of Artificial Intelligence*' (2018): 
+
+- AI reduces the cost of generating predictions.
+- Predictions inform decision makers.
+- If the predictions are reliable enough and the subsequent decision can be technically automated, then the AI can make decisions itself. 
+- If predictions are cheap, it means they are scalable and can enable decisions that were not possible before (such as in the case of Uber: recruit a driver). 
+
+The implication from this is that machine learning projects should be prioritized that, on the one hand, allow cheap predictions and, on the other hand, have a large business impact. This gives rise to the two dimensions to be considered: The business impact and feasibility (e.g. cost).
+
+<center><img src="../assets/priorities.png"/></center>
+
+In order to come up with high-impact Machine Learning projects, consider the following questions:
+
+1. Where can you take advantage of cheap prediction?
+2. Where can you automate complicated processes?
+3. What are other people/businesses doing?
+
+For assessing the feasibility of Machine Learning for a given problem scenario, consider the following points:
+
+1. Are you sure you need Machine Learning at all?
+2. Carefully define success criteria with all stakeholders
+3. Consider the ethics and data privacy concerns related to the usage of Machine Learning
+4. Do a literature review
+5. Try to rapidly collect a labeled benchmark dataset
+6. Build a minimal viable product (MVP), potentially rule-based/deterministic
+7. After all of these steps, are you still sure you need Machine Learning at all?
 
 ### Archetypes
 
