@@ -65,7 +65,7 @@ Agrawal, Gans, and Goldfarb describe what makes AI economically viable in their 
 - If the predictions are reliable enough and the subsequent decision can be technically automated, then the AI can make decisions itself. 
 - If predictions are cheap, it means they are scalable and can enable decisions that were not possible before (such as in the case of Uber: recruit a driver). 
 
-The implication from this is that machine learning projects should be prioritized that, on the one hand, allow cheap predictions and, on the other hand, have a large business impact. This gives rise to the two dimensions to be considered: The business impact and feasibility (e.g. cost).
+The implication from this is that Machine Learning projects should be prioritized that, on the one hand, allow cheap predictions and, on the other hand, have a large business impact. This gives rise to the two dimensions to be considered: The business impact and feasibility (e.g. cost).
 
 <center><img src="../assets/priorities.png"/></center>
 
