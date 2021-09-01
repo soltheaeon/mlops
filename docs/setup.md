@@ -28,6 +28,8 @@ To gain an initial overview of the project requirements, the following three-ste
     - User Experience constraints: To whom is the product made available? How does this relate to privacy concerns? How personalized does the solution need to be?
     - Technical constraints: What data is available? How much time is granted for development? How performant should the system be? How interpretable must the predictions be? What prediction latency can be tolerated?
 
+**A little interlude**: All ideas and illustrations in the following four sections are recreated from Lecture 5 of the UC Berkeley Spring 2021 course '*Full Stack Deep Learning*' (Karayev, Tobin, and Abdeel, 2021: [fullstackdeeplearning.com](https://fullstackdeeplearning.com/spring2021/lecture-5/)).
+
 ### The Machine Learning lifecycle
 
 Developing Machine Learning solutions is not a linear process. Nevertheless, a number of sub-processes can be identified that come with their own challenges. The sequence suggested here can be broken by falling back to previous steps.
@@ -86,6 +88,24 @@ For assessing the feasibility of Machine Learning for a given problem scenario, 
 7. After all of these steps, are you still sure you need Machine Learning at all?
 
 ### Archetypes
+
+While each machine learning project is unique, a few archetypes can be identified: Namely, **software 2.0**, **human-in-the-loop**, and **autonomous systems**. Each comes with a set of key questions to consider:
+
+<center><img src="../assets/archetypes.png"/></center>
+
+In the case of Software 2.0, we ideally want to create a data flywheel:
+
+<center><img src="../assets/data_flywheel.png"/></center>
+
+- **More Users**: Provides opportunity to automatically generate data and ideally have users label it themselves.
+- **More data**: Provides opportunity for you as a machine learning engineer to improve models.
+- **Better models**: Provides opportunity to improve the product, which in turn could acquire more users.
+
+Another helpful way to think about the design of the project is to consult a product design guideline from successful organizations. For example, the following shows Apple's Human Interface Guidelines for Machine Learning Applications (Apple Inc., last retrieved Sep. 2021: [apple.com/design/human-interface-guidelines](https://developer.apple.com/design/human-interface-guidelines/machine-learning/overview/introduction/)):
+
+1. What role does Machine Learning play in your application?
+    - Is this role critical or complementary? The more critical the Machine Learning feature is, the more reliable the system needs to be.
+    - How sensitive is the data being used? The more sensitive the data, the more serious are the consequences of inaccurate results.
 
 ### Metrics and baselines
 
