@@ -89,7 +89,7 @@ For assessing the feasibility of Machine Learning for a given problem scenario, 
 
 ### Archetypes
 
-While each machine learning project is unique, a few archetypes can be identified: Namely, **software 2.0**, **human-in-the-loop**, and **autonomous systems**. Each comes with a set of key questions to consider:
+While each Machine Learning project is unique, a few archetypes can be identified: Namely, **software 2.0**, **human-in-the-loop**, and **autonomous systems**. Each comes with a set of key questions to consider:
 
 <center><img src="../assets/archetypes.png"/></center>
 
@@ -99,13 +99,28 @@ In the case of Software 2.0, we ideally want to create a data flywheel:
 
 - **More Users**: Provides opportunity to automatically generate data and ideally have users label it themselves.
 - **More data**: Provides opportunity for you as a machine learning engineer to improve models.
-- **Better models**: Provides opportunity to improve the product, which in turn could acquire more users.
+- **Better models**: Provides opportunity to improve the product, which in turn could recruit more users.
 
 Another helpful way to think about the design of the project is to consult a product design guideline from successful organizations. For example, the following shows Apple's Human Interface Guidelines for Machine Learning Applications (Apple Inc., last retrieved Sep. 2021: [apple.com/design/human-interface-guidelines](https://developer.apple.com/design/human-interface-guidelines/machine-learning/overview/introduction/)):
 
 1. What role does Machine Learning play in your application?
-    - Is this role critical or complementary? The more critical the Machine Learning feature is, the more reliable the system needs to be.
-    - How sensitive is the data being used? The more sensitive the data, the more serious are the consequences of inaccurate results.
+    - *Is this role critical or complementary*? The more critical the Machine Learning feature is, the more reliable the system needs to be.
+    - *How sensitive is the data being used*? The more sensitive the data, the more serious are the consequences of inaccurate results.
+    - *Is the feature proactive or reactive*, i.e. does the feature provide results without the user requesting it or does the user need to ask for it? Because people don't ask for the results that a proactive feature provides, they may have less tolerance for low-quality information.
+    - *Is the feature visible or invisible*? Users will make a conscious decision of using the feature if it is visible and will be ignorant to its existence if it is invisble, e.g. a mobiles keyboard learning the user's typing behaviour and adjusting the tap area for each key to help them make fewer typing mistakes.
+    - *Is the feature dynamic or static*? Some models improve dynamically, as people interact with the app, and others improve offline and will be updated when the app updates.
+
+2. How can you learn from your users?
+    - *Is the feedback explicit*? For instance, "suggest less pop music".
+    - *Is the feedback implicit*? For instance, "I like this song".
+    - *Is there calibration during setup*? For instance, the user might need to scan their face before they can use FaceID.
+    - *Can the user suggest corrections*? 
+
+3. How should your app handle mistakes?
+    - *Does your app explain limitations*? That is, do you let your user know where you expect the model to perform well?
+    - *Does your app allow corrections being made*? That is, do you let your user succeed even if the model fails?
+    - *Does your app include attributions*? That is, does it help your user understand where the predictions come from?
+    - *Does your app provide a confidence score/interval*? That is, does your app help the user gauge the quality of the results? 
 
 ### Metrics and baselines
 
