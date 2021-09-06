@@ -1,7 +1,9 @@
 site_name: "MLOps: Modeling, Deploying and Monitoring @ äon intelligence"
 nav:
   - Home: index.md
+  - Project Management: project_management.md
   - Setup: setup.md
+  - Ethics: ethics.md
 theme:
   name: material
   logo: assets/logo.png

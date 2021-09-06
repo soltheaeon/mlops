@@ -533,20 +533,43 @@ Most AI projects fail. About 80% never reach deployment [...] and those that do 
 <li>After all of these steps, are you still sure you need Machine Learning at all?</li>
 </ol>
 <h3 id="archetypes">Archetypes</h3>
-<p>While each machine learning project is unique, a few archetypes can be identified: Namely, <strong>software 2.0</strong>, <strong>human-in-the-loop</strong>, and <strong>autonomous systems</strong>. Each comes with a set of key questions to consider:</p>
+<p>While each Machine Learning project is unique, a few archetypes can be identified: Namely, <strong>software 2.0</strong>, <strong>human-in-the-loop</strong>, and <strong>autonomous systems</strong>. Each comes with a set of key questions to consider:</p>
 <p><center><img src="../assets/archetypes.png"/></center></p>
 <p>In the case of Software 2.0, we ideally want to create a data flywheel:</p>
 <p><center><img src="../assets/data_flywheel.png"/></center></p>
 <ul>
 <li><strong>More Users</strong>: Provides opportunity to automatically generate data and ideally have users label it themselves.</li>
 <li><strong>More data</strong>: Provides opportunity for you as a machine learning engineer to improve models.</li>
-<li><strong>Better models</strong>: Provides opportunity to improve the product, which in turn could acquire more users.</li>
+<li><strong>Better models</strong>: Provides opportunity to improve the product, which in turn could recruit more users.</li>
 </ul>
 <p>Another helpful way to think about the design of the project is to consult a product design guideline from successful organizations. For example, the following shows Apple's Human Interface Guidelines for Machine Learning Applications (Apple Inc., last retrieved Sep. 2021: <a href="https://developer.apple.com/design/human-interface-guidelines/machine-learning/overview/introduction/">apple.com/design/human-interface-guidelines</a>):</p>
 <ol>
-<li>What role does Machine Learning play in your application?<ul>
-<li>Is this role critical or complementary? The more critical the Machine Learning feature is, the more reliable the system needs to be.</li>
-<li>How sensitive is the data being used? The more sensitive the data, the more serious are the consequences of inaccurate results.</li>
+<li>
+<p>What role does Machine Learning play in your application?</p>
+<ul>
+<li><em>Is this role critical or complementary</em>? The more critical the Machine Learning feature is, the more reliable the system needs to be.</li>
+<li><em>How sensitive is the data being used</em>? The more sensitive the data, the more serious are the consequences of inaccurate results.</li>
+<li><em>Is the feature proactive or reactive</em>, i.e. does the feature provide results without the user requesting it or does the user need to ask for it? Because people don't ask for the results that a proactive feature provides, they may have less tolerance for low-quality information.</li>
+<li><em>Is the feature visible or invisible</em>? Users will make a conscious decision of using the feature if it is visible and will be ignorant to its existence if it is invisble, e.g. a mobiles keyboard learning the user's typing behaviour and adjusting the tap area for each key to help them make fewer typing mistakes.</li>
+<li><em>Is the feature dynamic or static</em>? Some models improve dynamically, as people interact with the app, and others improve offline and will be updated when the app updates.</li>
+</ul>
+</li>
+<li>
+<p>How can you learn from your users?</p>
+<ul>
+<li><em>Is the feedback explicit</em>? For instance, "suggest less pop music".</li>
+<li><em>Is the feedback implicit</em>? For instance, "I like this song".</li>
+<li><em>Is there calibration during setup</em>? For instance, the user might need to scan their face before they can use FaceID.</li>
+<li><em>Can the user suggest corrections</em>? </li>
+</ul>
+</li>
+<li>
+<p>How should your app handle mistakes?</p>
+<ul>
+<li><em>Does your app explain limitations</em>? That is, do you let your user know where you expect the model to perform well?</li>
+<li><em>Does your app allow corrections being made</em>? That is, do you let your user succeed even if the model fails?</li>
+<li><em>Does your app include attributions</em>? That is, does it help your user understand where the predictions come from?</li>
+<li><em>Does your app provide a confidence score/interval</em>? That is, does your app help the user gauge the quality of the results? </li>
 </ul>
 </li>
 </ol>
