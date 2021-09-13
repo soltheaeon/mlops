@@ -49,7 +49,7 @@ Developing Machine Learning solutions is not a linear process. Nevertheless, a n
     - Evaluate for biases
     - Roll out in production
 
-<center><img src="../assets/ml_lifecycle.png"/></center>
+<center><img src="../assets/project_management/ml_lifecycle.png"/></center>
 
 As mentioned above, one may revert to previous steps. Reasons for this may be, for example, the following:
 
@@ -69,7 +69,7 @@ Agrawal, Gans, and Goldfarb describe what makes AI economically viable in their 
 
 The implication from this is that Machine Learning projects should be prioritized that, on the one hand, allow cheap predictions and, on the other hand, have a large business impact. This gives rise to the two dimensions to be considered: The business impact and feasibility (e.g. cost).
 
-<center><img src="../assets/priorities.png"/></center>
+<center><img src="../assets/project_management/priorities.png"/></center>
 
 In order to come up with high-impact Machine Learning projects, consider the following questions:
 
@@ -91,11 +91,11 @@ For assessing the feasibility of Machine Learning for a given problem scenario, 
 
 While each Machine Learning project is unique, a few archetypes can be identified: Namely, **software 2.0**, **human-in-the-loop**, and **autonomous systems**. Each comes with a set of key questions to consider:
 
-<center><img src="../assets/archetypes.png"/></center>
+<center><img src="../assets/project_management/archetypes.png"/></center>
 
 In the case of Software 2.0, we ideally want to create a data flywheel:
 
-<center><img src="../assets/data_flywheel.png"/></center>
+<center><img src="../assets/project_management/data_flywheel.png"/></center>
 
 - **More Users**: Provides opportunity to automatically generate data and ideally have users label it themselves.
 - **More data**: Provides opportunity for you as a machine learning engineer to improve models.
@@ -124,16 +124,12 @@ Another helpful way to think about the design of the project is to consult a pro
 
 ### Metrics and baselines
 
+Selecting a metric to optimize turns out to be a difficult challenge: we are often interested in multiple metrics, but Machine Learning systems work best when optimizing a single number. As a consequence, you need to choose a formula that combines and, if necessary, weights the metrics of interest.
+
 ## Project Management 101
 
-### Agile
+### The fundamentals of Agile/Scrum
 
-### Scrum
+### Project management with Jira
 
-### Lean
-
-### Kanban
-
-### Six Sigma
-
-### PRINCE2
+### Alternative project management approaches
