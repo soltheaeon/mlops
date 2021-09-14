@@ -15,3 +15,6 @@ theme:
     - navigation.top
     - navigation.tabs
     - navigation.tabs.sticky
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
