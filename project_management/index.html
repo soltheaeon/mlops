@@ -200,6 +200,78 @@
   </li>
 
       
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../modeling/" class="md-tabs__link">
+      Modeling
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../kaggle_competition_example/" class="md-tabs__link">
+      Kaggle Competition Example
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../distributed_and_cloud_computing/" class="md-tabs__link">
+      Distributed and Cloud Computing
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../deploying/" class="md-tabs__link">
+      Deploying
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../monitoring/" class="md-tabs__link">
+      Monitoring
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../end_to_end/" class="md-tabs__link">
+      End-to-End Project
+    </a>
+  </li>
+
+      
     </ul>
   </div>
 </nav>
@@ -407,6 +479,96 @@
     <li class="md-nav__item">
       <a href="../setup/" class="md-nav__link">
         Setup
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modeling/" class="md-nav__link">
+        Modeling
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kaggle_competition_example/" class="md-nav__link">
+        Kaggle Competition Example
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../distributed_and_cloud_computing/" class="md-nav__link">
+        Distributed and Cloud Computing
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../deploying/" class="md-nav__link">
+        Deploying
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../monitoring/" class="md-nav__link">
+        Monitoring
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../end_to_end/" class="md-nav__link">
+        End-to-End Project
       </a>
     </li>
   
@@ -669,15 +831,15 @@ Most AI projects fail. About 80% never reach deployment [...] and those that do 
 </ol>
 <h3 id="metrics-and-baselines">Metrics and baselines</h3>
 <p>Selecting a metric to optimize turns out to be a difficult challenge: we are often interested in multiple metrics, but Machine Learning systems work best when optimizing a single number. As a consequence, you need to choose a formula that combines and, if necessary, weights the metrics of interest.</p>
-<p>For illustration, let us consider the classic example of <strong>classifying handwritten digits</strong> (Note: the following code is taken from Aurélien Géron's popular <em>Hands-on Machine Learning</em> book, 2019: <a href="https://github.com/ageron/handson-ml2/blob/master/03_classification.ipynb">https://github.com/ageron</a>). </p>
-<p>For our purposes, we want to classify whether a digit is a <em>5</em> or not.</p>
+<p>For illustration, let us consider the classic example of <strong>classifying handwritten digits</strong> (Note: the following code is taken and only slightly adapted from Aurélien Géron's popular <em>Hands-on Machine Learning</em> book, 2019: <a href="https://github.com/ageron/handson-ml2/blob/master/03_classification.ipynb">https://github.com/ageron</a>). </p>
+<p>For our purposes, we want to classify whether a handwritten digit is a <code>5</code> or not.</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="kn">import</span> <span class="n">fetch_openml</span>
 
 <span class="n">mnist</span> <span class="o">=</span> <span class="n">fetch_openml</span><span class="p">(</span><span class="s1">&#39;mnist_784&#39;</span><span class="p">,</span> <span class="n">version</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">as_frame</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
 <span class="n">X</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">mnist</span><span class="p">[</span><span class="s2">&quot;data&quot;</span><span class="p">],</span> <span class="n">mnist</span><span class="p">[</span><span class="s2">&quot;target&quot;</span><span class="p">]</span>
 </code></pre></div>
 <p><code>X</code> contains the images of handwritten images and is of shape <code>(70000, 784)</code>, where the second dimension is the number of pixels per image <code>(28*28)</code>. The array <code>y</code> contains the labels, i.e. which digit from <code>0</code> to <code>9</code> any given image depicts. Since there is a label for each image, <code>y</code> is of shape <code>(70000,)</code>.</p>
-<p>The first image <code>X[0]</code> happens to contain a <em>5</em>:</p>
+<p>The first image <code>X[0]</code> happens to contain a <code>5</code>:</p>
 <p><div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 
 <span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">X</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">cmap</span> <span class="o">=</span> <span class="s1">&#39;binary&#39;</span><span class="p">)</span>
