@@ -126,9 +126,9 @@ Another helpful way to think about the design of the project is to consult a pro
 
 Selecting a metric to optimize turns out to be a difficult challenge: we are often interested in multiple metrics, but Machine Learning systems work best when optimizing a single number. As a consequence, you need to choose a formula that combines and, if necessary, weights the metrics of interest.
 
-For illustration, let us consider the classic example of **classifying handwritten digits** (Note: the following code is taken from Aurélien Géron's popular *Hands-on Machine Learning* book, 2019: [https://github.com/ageron](https://github.com/ageron/handson-ml2/blob/master/03_classification.ipynb)). 
+For illustration, let us consider the classic example of **classifying handwritten digits** (Note: the following code is taken and only slightly adapted from Aurélien Géron's popular *Hands-on Machine Learning* book, 2019: [https://github.com/ageron](https://github.com/ageron/handson-ml2/blob/master/03_classification.ipynb)). 
 
-For our purposes, we want to classify whether a digit is a *5* or not.
+For our purposes, we want to classify whether a handwritten digit is a `5` or not.
 
 ```python
 from sklearn.datasets import fetch_openml
@@ -139,7 +139,7 @@ X, y = mnist["data"], mnist["target"]
 
 `X` contains the images of handwritten images and is of shape `(70000, 784)`, where the second dimension is the number of pixels per image `(28*28)`. The array `y` contains the labels, i.e. which digit from `0` to `9` any given image depicts. Since there is a label for each image, `y` is of shape `(70000,)`.
 
-The first image `X[0]` happens to contain a *5*:
+The first image `X[0]` happens to contain a `5`:
 
 ```python
 import matplotlib.pyplot as plt

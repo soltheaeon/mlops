@@ -4,6 +4,12 @@ nav:
   - Project Management: project_management.md
   - Ethics: ethics.md
   - Setup: setup.md
+  - Modeling: modeling.md
+  - Kaggle Competition Example: kaggle_competition_example.md
+  - Distributed and Cloud Computing: distributed_and_cloud_computing.md
+  - Deploying: deploying.md
+  - Monitoring: monitoring.md
+  - End-to-End Project: end_to_end.md
 theme:
   name: material
   logo: assets/logo.png
